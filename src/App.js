@@ -9,7 +9,7 @@ export class App extends Component {
     this.state = {
       data: null,
       score: 0,
-      searchURL: 'http://jservice.io/api/random'
+      searchURL: 'https://jservice.io/api/random'
     }
     this.updateScore = this.updateScore.bind(this);
     this.getQuestion = this.getQuestion.bind(this);
