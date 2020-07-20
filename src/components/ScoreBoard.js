@@ -18,11 +18,15 @@ export class ScoreBoard extends Component {
     }
     render () {
         return (
-            <div>
+            <div className='scoreBoard'>
+                <div>
                 <h2>Score: {this.props.currentScore}</h2>
-                <button onClick={this.addScore}>Increase</button>
-                <button onClick={this.deductScore}>Decrease</button>
-                <button onClick={this.resetScore}>Reset</button>
+                </div>
+                <div id='scoreBoard-buttons'>
+                <button onClick={this.addScore} id='increase-button'>Increase</button>
+                <button onClick={this.deductScore} id='decrease-button'>Decrease</button>
+                <button onClick={this.resetScore} id='reset-button'>Reset</button>
+                </div>
             </div>
         )
     }

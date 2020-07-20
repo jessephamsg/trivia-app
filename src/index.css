@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(126,83,185);
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-family: 'Luckiest Guy';
+  font-size: 130px;
+  color: white;
+}
+
+button {
+  padding: 20px 40px;
+  margin: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}
+
+#increase-button {
+  background-color: rgb(124,187,79);
+  box-shadow: 0px 6px rgba(106, 158, 68);
+  color: white;
+}
+
+#decrease-button {
+  background-color: rgb(235,76,94);
+  box-shadow: 0px 6px rgba(232, 62, 68);
+  color: white;
+}
+
+#reset-button {
+  background-color: rgb(231,204,84);
+  box-shadow: 0px 6px rgba(225, 192, 76);
+  color: white;
+}
+
+.gameBody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: fit-content;
+  padding: 30px;
+  background-color: rgb(113, 74, 165);
+  align-self: center;
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  margin-top: 0px
+}
+
+#scoreBoard-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.gameQuestions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background-color: rgb(250, 239, 232);
+  padding: 30px;
+  align-self: center;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #3c3a3a;
+  margin-top: 0px;
+}
+
+h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgb(113, 74, 165);
+}
+
+#toggleAnswer-button {
+  background-color: rgb( 237, 136, 80);
+  color: white;
+}
+
+#getQuestion-button {
+  background-color: rgb(101, 96, 93);
+  color: white;
+}
